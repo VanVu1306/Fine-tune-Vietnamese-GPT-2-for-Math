@@ -28,19 +28,22 @@ Specifically, we investigate:
 
 ---
 
-## Base Model
+## Resources
 
-The system is built upon **NlpHUST/gpt2-vietnamese**, a Vietnamese GPT-2 model pretrained on the OSCAR Vietnamese corpus using causal language modeling. The model follows the standard GPT-2 architecture (12 layers, hidden size 768) and was selected due to its lightweight size and suitability for fine-tuning under limited training resources. :contentReference[oaicite:1]{index=1}
+The system is built upon **NlpHUST/gpt2-vietnamese**, a Vietnamese GPT-2 model pretrained on the OSCAR Vietnamese corpus using causal language modeling. The model follows the standard GPT-2 architecture (12 layers, hidden size 768) and was selected due to its lightweight size and suitability for fine-tuning under limited training resources.
 
-**Base Model**
+### Dataset
+https://www.kaggle.com/datasets/kimanh2002/dataset-math
+
+### Base Model
 https://www.kaggle.com/datasets/kimanh2002/nlphustgpt2-vietnamese
+
+### Hugging Face Model Card
+https://huggingface.co/NlpHUST/gpt2-vietnamese
 
 ---
 
 ## Dataset
-
-**Dataset**
-https://www.kaggle.com/datasets/kimanh2002/dataset-math
 
 The training and validation data consist of Vietnamese mathematical word problems derived from datasets commonly used in mathematical reasoning research, including variants originating from the MetaMath framework.
 
